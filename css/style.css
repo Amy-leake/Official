@@ -9,6 +9,7 @@ h1 {
   font-size: 50px;
   text-align: center;
   font-family: monospace;
+  color: White;
 }
 /* Header Two */
 h2 {
@@ -30,15 +31,16 @@ body {
   max-width: 200px;
   height:auto;
   border-radius: 8px;
+  margin-right: 10px;
 }
 .home1 {
   font-style: italic;
-  color: #737373;
+  color: White;
   text-align: center;
 }
 .home2 {
   text-align: left;
-  color: #8c8c8c;
+  color: White;
 }
 
 
@@ -152,8 +154,16 @@ body {
 }
 
 /* Styling the Grid System */
-.col-md-12 {
-  background-color: rgba(255, 255, 255, 0.9);
-  margin-left: 20px;
+.col-md-12_1 {
+  background-color: rgba(26, 26, 26, 0.9);
+  margin-left: 40px;
   margin-top: 20px;
+  padding: 5px;
+}
+
+.col-md-12_2 {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-right: 40px;
+  margin-top: 20px;
+  padding: 5px;
 }
