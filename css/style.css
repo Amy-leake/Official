@@ -1,9 +1,14 @@
 /* Header Two */
 h1 {
   text-align: center;
-  color: black;
+  color: #000;
   font-family: monospace;
   font-size: 50px;
+}
+.home-page {
+  font-size: 50px;
+  text-align: center;
+  font-family: monospace;
 }
 /* Header Two */
 h2 {
@@ -17,6 +22,26 @@ body {
   background-image: url("../images/desk.jpg");
   background-size: cover;
 }
+.col-sm-8{
+  background-color: white;
+}
+.keep-calm-image {
+  float:left;
+  max-width: 200px;
+  height:auto;
+  border-radius: 8px;
+}
+.home1 {
+  font-style: italic;
+  color: #737373;
+  text-align: center;
+}
+.home2 {
+  text-align: left;
+  color: #8c8c8c;
+}
+
+
 /* Banner stye */
 .banner {
   width: 100%;
@@ -100,36 +125,13 @@ body {
 .topnav a.active {
     background-color: #737373;
     color: white;
+    padding-bottom: 9px;
 }
 
 /* Search Bar Start */
 .topnav .search-container {
   float: right;
 }
-
-/* Style the search box inside the navigation bar */
-.topnav input[type=text] {
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    font-size: 17px;
-}
-
-.topnav .search-container button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 8px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.topnav .search-container button:hover {
-  background: #ccc;
-}
-/* Search Bar End */
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
@@ -147,4 +149,9 @@ body {
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
+}
+
+/* Styling the Grid System */
+.col-md-12 {
+  background-color: white;
 }
