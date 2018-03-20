@@ -208,6 +208,8 @@ background:#3e3436;
   font-weight: bold;
   font-size: 18px;
   font-family: monospace;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 input[type=text], select, textarea {
