@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- JAVA SCRIPT -->
     <link href='css/bootstrap.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
       A sheffield students guide to uni
     </title>
+
+    <!-- ICONS STYLESHEET -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- MY STYLESHEET -->
     <link rel="stylesheet" type"text/css" href="css/style.css">
+    <!-- JQUERY LIBRARY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <!--BANNER START -->
@@ -25,26 +30,41 @@
     <!-- Social Media Links END -->
   </div>
   <!--BANNER END -->
+
   <!--Navigation Bar START -->
-<nav>
-  <div class="topnav">
-    <a class="active" href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="#work">Work</a>
-    <a href="#life">Life</a>
-    <a href="#study">Study</a>
-    <a href="#contact">Contact</a>
-    <!-- Search Bar START -->
-    <div class="search-container">
-      <form action="/action_page.php">
-        <input type="text" placeholder="Search..">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-    <!-- Search Bar END -->
-  </div>
-</nav>
+<div class="menu-wrap">
+  <nav class="menu">
+    <ul class="clearfix">
+      <li class="current-item"><a href="index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li>
+        <a href="#">Work <span class="arrow">&#9660;</span></a>
+          <ul class="sub-menu">
+            <li><a href="#">Life On Placement</a></li>
+          </ul>
+      </li>
+      <li>
+        <a href="#">Life <span class="arrow">&#9660;</span></a>
+          <ul class="sub-menu">
+            <li><a href="#">Uni at Home</a></li>
+            <li><a href="#">Getting Through It</a></li>
+          </ul>
+      </li>
+      <li>
+        <a href="#">Study <span class="arrow">&#9660;</span></a>
+          <ul class="sub-menu">
+            <li><a href="#">The Grades...</a></li>
+            <li><a href="#">The Organisation...</a></li>
+            <li><a href="#">And Everything In Between</a></li>
+          </ul>
+      </li>
+      <li><a href="contact.html">Contact Us</a>
+    </ul>
+  </nav>
+</div>
+
   <!--Navigation Bar END -->
+
   <body>
     <div class="row">
       <div class="col-md-9">
